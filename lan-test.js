@@ -1,1 +1,7 @@
-const tbc = (a, b) => (a + b) / 2;
+const tbc = (a, b) => {
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new Error("Invalid input");
+  }
+
+  return (a + b) / 2;
+};
