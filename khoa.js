@@ -19,3 +19,5 @@ const tbc = (a, b) => {
 };
 
 const hello2 = (a, b) => {};
+const hello3 = (a, b) => {};
+const hello4 = (a, b) => {};
